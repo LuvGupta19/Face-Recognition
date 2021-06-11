@@ -10,4 +10,5 @@ PROBLEM STATEMENT:
 CODE DETAILS:
 - Major Libraries used are face_recognition and cv2.
 - More on face_recognition : https://face-recognition.readthedocs.io/en/latest/_modules/face_recognition/api.html#face_encodings
-- The histogram of oriented gradients (HOG) model has been used, However cnn model can be used to increase accuray but also decrease in performance.
+- The histogram of oriented gradients (HOG) model has been used, However cnn model can be used. 
+- "hog" is less accurate but faster on CPUs. "cnn" is a more accurate deep-learning model which is GPU/CUDA accelerated 
