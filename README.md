@@ -8,5 +8,6 @@ PROBLEM STATEMENT:
 - Encoding of the faces is done using OpenCV and deep learning. Before you can encode faces in images you first need to detect them (face detection is implicit), you can use any appropriate method of your choice. 
 
 
-face_recognition and cv2 libraries have been used 
-
+Major Libraries used are face_recognition and cv2.
+More on face_recognition - https://face-recognition.readthedocs.io/en/latest/_modules/face_recognition/api.html#face_encodings
+The histogram of oriented gradients (HOG) model has been used, However cnn model can be used to increase accuray but also decrease in performance.
